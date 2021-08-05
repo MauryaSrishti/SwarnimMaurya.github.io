@@ -157,7 +157,7 @@ code{
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  min-width: 100%;
+  width: 100%;
 }
 .container img {vertical-align: middle;}
 .block-text {
@@ -167,6 +167,8 @@ code{
   background: rgba(0, 0, 0, 0);
   width: 100%;
   padding: 20px;
+  margin-left: 50px;
+  margin-right; 50px;
 }
 h1 {
     font-family: Neuzeit Grotesk Bold,sans-serif;
