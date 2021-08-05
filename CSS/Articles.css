@@ -157,7 +157,7 @@ code{
     position: relative;
 }
 .block-text {
-    float: center;
+    position: absolute;
     bottom: 20px;
     left: 20px;
     color: white;
