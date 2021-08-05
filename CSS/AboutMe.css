@@ -157,8 +157,9 @@ code{
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  min-width: 100%;
 }
- .container img {vertical-align: middle;}
+.container img {vertical-align: middle;}
 .block-text {
   position: absolute;
   bottom: 0;
