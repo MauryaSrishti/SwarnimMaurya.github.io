@@ -164,6 +164,10 @@ code{
     padding-left: 20px;
     padding-right: 20px;
     font-family: Neuzeit Grotesk Bold,sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 h1 {
     font-family: Neuzeit Grotesk Bold,sans-serif;
