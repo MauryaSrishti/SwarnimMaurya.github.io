@@ -1,20 +1,32 @@
-var $element=$('.each-event, .title');
-var $window = $(window);
-$window.on('scroll resize', check_for_fade);
-$window.trigger('scroll');
-function check_for_fade() {
-    var window_height = $window.height();
+(function () {
+  "use strict";
 
-    $.each($element, function (event) {
-        var $element = $(this);
-        var element_height = $element.outerHeight();
-        var element_offset = $element.offset().top;
-        space = window_height - (element_height + element_offset -$(window).scrollTop());
-        if (space < 60) {
-            $element.addClass("non-focus");
-        } else {
-            $element.removeClass("non-focus");
-        }
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
 
-    });
-};
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
