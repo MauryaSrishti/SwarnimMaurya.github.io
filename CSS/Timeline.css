@@ -1,8 +1,10 @@
 
 body {
     background: linear-gradient(to right, #0ED2F7, #B2FEFA );
-    font: normal 16px/1.5, Neuzeit Grotesk, sans-serif;
-    overflow-x: hidden;
+      font: normal 16px/1.5 "Neuzeit Grotesk", sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+      padding-bottom: 50px;
 }
 html{
     margin:0;
