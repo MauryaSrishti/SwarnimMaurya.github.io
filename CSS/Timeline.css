@@ -1,3 +1,4 @@
+@import url("https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300");
 body {
     background: linear-gradient(to right, #0ED2F7, #B2FEFA );
 
@@ -195,8 +196,7 @@ h2{
     letter-spacing:2px;
     padding:10px 20px;
     font-family:Neuzeit Grotesk Bold,sans-serif
-}@import url("https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300");
-
+}
 .wrapper {
   width: 100%;
   min-height: 100vh;
