@@ -171,6 +171,16 @@ h1 {
     color: #f7fcff;
     text-align: center;
 }
+h4{
+    transition:opacity .3s ease-in-out;
+    color:#fff;
+    font-weight:700;
+    font-size:28px;
+    text-decoration:none;
+    letter-spacing:2px;
+    padding:10px 20px;
+    font-family:Neuzeit Grotesk Bold,sans-serif}
+}
 p {
     font-family: Neuzeit Grotesk Bold,sans-serif;
     color: #898989;
