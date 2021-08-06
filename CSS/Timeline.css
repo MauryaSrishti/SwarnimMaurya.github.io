@@ -247,7 +247,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #0f3443 transparent transparent;
+  border-color: transparent #34e89e transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -257,7 +257,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #34e89e;
+  border-color: transparent transparent transparent #0f3443;
 }
 
 time {
