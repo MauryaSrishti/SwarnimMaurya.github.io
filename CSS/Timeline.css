@@ -179,7 +179,7 @@ h4{
     text-decoration:none;
     letter-spacing:2px;
     padding:10px 20px;
-    font-family:Neuzeit Grotesk Bold,sans-serif}
+    font-family:Neuzeit Grotesk Bold,sans-serif;
 }
 p {
     font-family: Neuzeit Grotesk Bold,sans-serif;
@@ -237,7 +237,7 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: linear-gradient(to right, #34e89e, #0f3443);
+  background: linear-gradient(to right, #00b4db, #0083b0);
   border-radius: 15px;
 }
 
@@ -275,6 +275,7 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+  font-family:Neuzeit Grotesk Bold,sans-serif;
 }
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
