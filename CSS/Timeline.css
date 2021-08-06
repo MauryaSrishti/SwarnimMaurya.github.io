@@ -1,6 +1,8 @@
 
 body {
     background: linear-gradient(to right, #0ED2F7, #B2FEFA );
+    font: normal 16px/1.5, Neuzeit Grotesk, sans-serif;
+    overflow-x: hidden;
 }
 html{
     margin:0;
@@ -37,7 +39,8 @@ code{
     text-decoration:none;
     letter-spacing:2px;
     padding:10px 20px;
-    font-family:Neuzeit Grotesk Bold,sans-serif}
+    font-family:Neuzeit Grotesk Bold,sans-serif;
+}
 .logo:hover{
     opacity:.7
 }
@@ -195,13 +198,6 @@ a{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
-  color: #fff;
-  overflow-x: hidden;
-  padding-bottom: 50px;
 }
 .intro {
   background: linear-gradient(to top, #00d2ff, #3a7bd5);
