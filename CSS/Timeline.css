@@ -183,7 +183,7 @@ h4{
 }
 p {
     font-family: Neuzeit Grotesk Bold,sans-serif;
-    color: #898989;
+    color: #fff;
     text-align: center;
     font-size: 25px;
 }
@@ -272,6 +272,7 @@ h1 {
 
 time {
   display: block;
+  color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
