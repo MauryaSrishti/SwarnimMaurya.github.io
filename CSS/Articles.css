@@ -96,14 +96,12 @@ code{
         padding:20px
     }
 }
-.nav-links{display:-moz-box;
+.nav-links{
     display:flex;
     align-items:center;
     padding-right:12px;
     margin-left:auto}
 .nav-links a{
-    -webkit-transition:opacity .3s ease-in-out;
-    -moz-transition:opacity .3s ease-in-out;
     transition:opacity .3s ease-in-out;
     margin-left:10px
 }
@@ -163,6 +161,8 @@ code{
     padding-left: 20px;
     padding-right: 20px;
     font-family: Neuzeit Grotesk Bold,sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 h1 {
     font-family: Neuzeit Grotesk Bold,sans-serif;
