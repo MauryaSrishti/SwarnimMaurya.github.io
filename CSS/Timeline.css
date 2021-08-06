@@ -202,7 +202,7 @@ h2{
     width: 100%;
     min-height: 100vh;
     height: 100%;
-    font: normal 16px/26px 'Common Pixel', sans-serif;
+    font: normal 16px/26px Neuzeit Grotesk Bold,sans-serif
     color: #fff;
     padding: 100px 20px 200px;
     box-sizing: border-box;
@@ -223,7 +223,7 @@ h2{
 }
 
 .title {
-    font: bold 42px/52px 'Common Pixel', sans-serif;
+    font: bold 42px/52px Neuzeit Grotesk Bold,sans-serif
     text-align: center;
     padding: 20px;
     transition: all 0.8s ease-in-out;
