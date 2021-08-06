@@ -273,6 +273,7 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+  font-family::Neuzeit Grotesk, sans-serif;
 }
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
