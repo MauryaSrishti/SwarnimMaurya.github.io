@@ -161,8 +161,7 @@ code{
     padding-left: 20px;
     padding-right: 20px;
     font-family: Neuzeit Grotesk Bold,sans-serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    
 }
 h1 {
     font-family: Neuzeit Grotesk Bold,sans-serif;
@@ -173,16 +172,19 @@ h2 {
     font-family: Neuzeit Grotesk Bold,sans-serif;
     color: #ffffff;
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p {
     font-family: Neuzeit Grotesk Bold,sans-serif;
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
     font-size: 25px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
 }
 a{
     text-decoration: none;
