@@ -268,14 +268,14 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent                   #0083b0;
+  border-color: transparent transparent transparent #0083b0;
 }
 time {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
-  font-family::Neuzeit Grotesk, sans-serif;
+  font-family:Neuzeit Grotesk, sans-serif;
 }
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
